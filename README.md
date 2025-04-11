@@ -2,6 +2,7 @@
 Personal CV/Portfolio in HTML, CSS and JavaScript code
 
 Projektet innehåller följande .html-sidor: index (Home), about, projects och contact med tillhörande css kod samt två JavaScript-sidor. Alla sidor fick "dela" kod vad gäller färgtema, font, meny, navbar och footer. Sedan implementerades individuella css stilar beroende på vad varje sida innehöll. Jag använde flexbox layout för projektet i css och använde JavaScript för en bildkarusell i projects och ett kontaktformulär (ej kopplat till en email för tillfället utan bara ger ett popup meddelande om kontaktformuläret "skickats" eller vissa fält inte är ifyllda). 
+Hade lite problem med min dator när jag skulle skifta till mobilläge att jag var tvungen att trycka två gånger på toggle device toolbar för att designen för mobilläge skulle implementeras (det var som om den "hängde sig" vid första trycket) så därför bifogar jag också några screenshots på hur sidorna ser ut när man tryckt två gånger på toggle device toolbar, om det inte skulle fungera för dig :)
 
 Framtida förbättringar: Stora pixelnummer vad gäller framförallt padding. Borde kanske använt rem på sina ställen, men hade kommit tillräckligt långt för att inte orka peta med det, men tar med mig det gällande grupprojektet. Hade kanske kunnat återanvända mer av css stilarna på de olika sidorna om jag designat annorlunda. 
 
