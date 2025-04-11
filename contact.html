@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="flex-container">
+        <div class="navbar">
+        <div class="logo">K</div>
+        <div class="dot"></div>
+        <div class="menu">
+            <a href="index.html" class="menu-item">Home</a>
+            <a href="about.html" class="menu-item">About</a>
+            <a href="projects.html" class="menu-item">Projects</a>
+            <a href="contact.html" class="menu-item">Contact</a>
+    </div> 
+</div> 
+<main>
+    <div class="contact-page"><article><h1>Contact me</h1><p>Want to get in touch with me? Please reach out by filling out the form below!</p>
+    </article> 
+</div>
+<div class="contact-form">
+<form>
+    <label for="name">Your name:</label>
+    <input type="text" id="name" name="name" style="height: 40px;">
+    <label for="email">Your email:</label>
+    <input type="text" id="email" name="email" style="height: 40px;">
+    <label for="message">Your message:</label>
+    <textarea name="message" id="message" style="height: 200px;"></textarea>
+    <button type="submit">Submit</button>
+</div>
+<div id="popup" class="popup">
+    <div class="popup-content">
+        <p id="popup-message"></p>
+        <button onclick="closePopup()">Close</button>
+    </div>
+</div>
+</main> 
+</div>
+</div>
+<div class="footer"><p>&copy; Copyright 2025</p></div>
+<script src="script.js"></script>
+</body>
+</html>
